@@ -1,0 +1,3 @@
+UPJ=('universitas','Pembangunan','Jaya')
+UPJ[0]
+UPJ[0:]
