@@ -1,0 +1,5 @@
+import datetime
+tanggal = datetime.datetime.now()
+mahasiswa = ["nama mu", "nim mu", "Informatika", "Desain Analisis Algoritma", tanggal.strftime("%d-%m-%Y"),"Universitas Pembangunan Jaya"]
+
+print(mahasiswa)
