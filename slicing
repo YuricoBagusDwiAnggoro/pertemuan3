@@ -1,0 +1,2 @@
+hewan=[kucing, ayam, nyamuk, ikan]
+hewan[0:3]
