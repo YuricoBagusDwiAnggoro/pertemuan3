@@ -1,0 +1,5 @@
+#CETAK NIM MASING MASING DENGAN MEMANGGIL LIST MAHASISWA
+import datetime
+tanggal = datetime.datetime.now()
+mahasiswa = ["yurico", "2022071033", "Informatika", "Desain Analisis Algoritma", tanggal.strftime("%d-%m-%Y"),"Universitas Pembangunan Jaya"]
+mahasiswa[1]
