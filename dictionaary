@@ -1,0 +1,11 @@
+mahasiswa = {
+    "nama": "Yurico",
+    "nim": "2022071033",
+    "prodi": "Informatika",
+    "universitas": "Universitas Pembangunan Jaya"
+}
+
+print("Nama: " + mahasiswa["nama"])
+print("NIM: " + mahasiswa["nim"])
+print("Prodi: " + mahasiswa["prodi"])
+print("Universitas: " + mahasiswa["universitas"])
