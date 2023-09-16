@@ -1,0 +1,16 @@
+import pandas as pd
+
+data = {
+    'Nomer': [1, 2, 3],
+    'Prodi': ['Informatika', 'Sistem Informasi', 'Teknik Sipil'],
+    'Jumlah Mahasiswa': [50, 55, 40],
+    'Jumlah Laki-laki': [30, 30, 30],
+    'Jumlah Perempuan': [20, 25, 10]
+}
+
+mhs = pd.DataFrame(data)
+
+
+mhs.set_index('Nomer', inplace=True)
+
+print(mhs)
